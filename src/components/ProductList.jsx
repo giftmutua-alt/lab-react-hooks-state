@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 function ProductList({ products, addToCart }) {
   if (products.length === 0) {
-    return <p>No products available</p>;   // ✅ matches test
+    return <p>No products available</p>;
   }
 
   return (
@@ -16,5 +16,6 @@ function ProductList({ products, addToCart }) {
 }
 
 export default ProductList;
+
 
 

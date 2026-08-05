@@ -6,7 +6,7 @@ function ProductCard({ product, addToCart }) {
       <h3>{product.name}</h3>
       <p>Category: {product.category}</p>
       <button
-        data-testid={`product-${product.id}`}  
+        data-testid={`product-${product.id}`}
         onClick={() => addToCart(product)}
       >
         Add to Cart
@@ -16,5 +16,7 @@ function ProductCard({ product, addToCart }) {
 }
 
 export default ProductCard;
+
+
 
 

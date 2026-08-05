@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
-import App, { sampleProducts } from "../App";   // ✅ import both
+import App, { sampleProducts } from "../App";
 
 test("toggles dark mode on button click", () => {
   render(<App />);
@@ -31,3 +31,4 @@ test("adds items to cart", () => {
   fireEvent.click(appleBtn);
   expect(screen.getByText(/Apple is in your cart./i)).toBeInTheDocument();
 });
+

@@ -3,7 +3,7 @@ import React from "react";
 function Cart({ cart }) {
   return (
     <div>
-      <h2>Your Cart</h2>
+      <h2>Shopping Cart</h2>
       {cart.length === 0 ? (
         <p>No items yet.</p>
       ) : (
@@ -16,3 +16,4 @@ function Cart({ cart }) {
 }
 
 export default Cart;
+

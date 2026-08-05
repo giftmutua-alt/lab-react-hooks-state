@@ -7,7 +7,7 @@ import Cart from "./components/Cart";
 export const sampleProducts = [
   { id: 1, name: "Milk", category: "Dairy" },
   { id: 2, name: "Bread", category: "Bakery" },
-  { id: 3, name: "Apple", category: "Fruits" },   // ✅ matches test
+  { id: 3, name: "Apple", category: "Fruits" },
   { id: 4, name: "Cheese", category: "Dairy" },
 ];
 
